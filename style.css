@@ -1,0 +1,513 @@
+@import url("https://fonts.googleapis.com/css2?family=Audiowide&family=Josefin+Sans:wght@100&family=Rambla&display=swap");
+@import url("http://fonts.cdnfonts.com/css/kuiper-belt");
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden !important;
+}
+body {
+  color: #283655 !important;
+  background-color: #f7faff !important;
+  font-family: "Rambla", sans-serif;
+}
+h2,
+h3 {
+  font-family: "Kuiper Belt", sans-serif;
+
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  text-shadow: -1px -1px 1px #283655;
+}
+li {
+  list-style-type: none;
+}
+/* ///////////////////////// HEADER ///////////////////////// */
+.navbar {
+  background-color: #fafafa;
+  opacity: 0.9;
+  height: 42px;
+  transition: 0.7s;
+}
+.navbar-nav {
+  width: 80% !important;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+header {
+  text-align: center;
+  height: 100vh;
+  background: url("media/header2.jpg") no-repeat fixed 50% 50%;
+  background-size: cover;
+}
+h1 {
+  padding: 90px 0 10px 0;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 4em;
+  text-transform: uppercase;
+}
+#line {
+  height: 1px;
+  background-color: #b3aca7;
+  width: 25%;
+  margin: 0 auto;
+}
+h2 {
+  padding: 20px 0 50px 0;
+  font-size: 3em;
+  text-transform: uppercase;
+}
+.presentation {
+  height: 240px;
+  margin-top: 20px;
+}
+.infos {
+  border: 1px solid #b3aca7;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+.photo {
+  border: 1px solid #b3aca7;
+  position: relative;
+}
+.photo img {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  height: auto;
+  max-width: 90%;
+  border-radius: 3px;
+  box-shadow: 0 0 4px #111;
+}
+header .button {
+  margin-top: 45px;
+}
+header .button a {
+  padding: 20px 80px;
+  border: 1px solid #b3aca7;
+  width: 300px;
+}
+header .button:hover a {
+  background: #b3aca7;
+  color: #e2dedb;
+  transition: all 0.3s ease-in-out;
+  text-decoration: none;
+}
+/* ///////////////////////// SKILLS ///////////////////////// */
+
+#skills {
+  background: rgb(243, 243, 243);
+  text-align: center;
+  padding: 60px 0;
+}
+#skills h3 {
+  font-size: 2.5em;
+  padding-bottom: 30px;
+  text-shadow: -2px 1px 2px #908f8f;
+}
+.skill_container {
+  width: 70%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: url("./media/competences.jpg") 50% 50% no-repeat fixed;
+  background-size: cover;
+  border-radius: 30px;
+}
+.skill {
+  border-radius: 30px;
+  width: 50%;
+  height: auto;
+  margin: 30px;
+  background: rgba(253, 253, 253, 0.651);
+}
+.skill h4 {
+  margin: 20px auto;
+}
+.front-end .skill,
+.frameworks .skill,
+.design .skill {
+  box-shadow: -2px 2px 3px 0px grey;
+}
+.back-end .skill,
+.cms .skill,
+.environment .skill {
+  box-shadow: 2px 2px 3px 0px grey;
+}
+.front-end,
+.back-end,
+.frameworks,
+.cms,
+.design,
+.environment {
+  align-items: center;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.front-end img,
+.back-end img,
+.frameworks img,
+.cms img,
+.design img {
+  width: 150px;
+  height: auto;
+}
+.htmlseo,
+.csssass {
+  width: 60%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+}
+.back-end,
+.cms,
+.environment {
+  flex-direction: row-reverse;
+}
+.inprogress {
+  color: #5782c2;
+}
+.otherskills {
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.349);
+  align-items: center;
+  margin-bottom: 0;
+}
+.other {
+  width: 100%;
+}
+.other_container {
+  margin-top: 20px;
+}
+/* TRANSITION */
+
+/* ///////////////////////// PARCOURS & FORMATION ///////////////////////// */
+#parcours,
+#formation {
+  width: 90%;
+  margin: 0 auto;
+}
+#parcours h3,
+#formation h3 {
+  text-align: center;
+  margin: 30px auto;
+}
+#parcours h3 {
+  margin: -50px auto 30px;
+}
+#parcours p,
+#formation p {
+  line-height: 2rem;
+}
+.experience {
+  width: 80%;
+  min-width: 600px;
+  max-width: 760px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-evenly;
+}
+.left_part {
+  width: 30%;
+  border-right: 4px solid rgb(199, 199, 199);
+  padding-right: 20px;
+}
+.experience:last-child .left_part {
+  border-right: 4px solid rgb(199, 199, 199);
+  /* background: linear-gradient(
+    180deg,
+    rgba(199, 199, 199, 1) 0%,
+    rgba(255, 255, 255, 0) 100%
+  ); */
+}
+.right_part {
+  padding-left: 100px;
+  position: relative;
+}
+.right_part::before {
+  content: "";
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: rgb(199, 199, 199);
+  left: -12px;
+}
+
+/* ///////////////////////// PORTFOLIO ///////////////////////// */
+#portfolio {
+  margin: 100px 2% 0 2%;
+  padding: 40px 10px 60px 40px;
+  background-color: rgba(179, 172, 167, 0.08);
+  box-shadow: 0px 0px 1px #a8a8a9;
+}
+#portfolio h3,
+#parcours h3,
+#formation h3,
+#hobbies h3 {
+  font-size: 3em;
+  padding-bottom: 15px;
+}
+#portfolio h4,
+#parcours h4,
+#formation h4 {
+  font-size: 1.5em;
+  color: rgb(180, 98, 98);
+  font-weight: bold;
+  padding-bottom: 20px;
+  padding-top: -2px;
+}
+.projet {
+  display: flex;
+}
+.projet:nth-child(2) {
+  margin-left: 3%;
+}
+.projet:nth-child(3) {
+  margin-left: 6%;
+}
+.cadre {
+  position: relative;
+  padding: 40px 20px 25px 0;
+  width: 60%;
+  max-width: 600px;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  margin: 10px 8px;
+  color: #aca49c;
+  text-align: center;
+}
+.img-container {
+  height: 250px;
+  width: 90%;
+  max-width: 500px;
+  overflow: hidden;
+  margin: 0 auto;
+  box-shadow: 1px 1px 10px #111;
+}
+.img-container img {
+  position: relative;
+  height: 100%;
+  margin: 0 auto;
+}
+.img-container :hover img {
+  transform: scale(1.08);
+  transform-origin: 50% 50%;
+  filter: contrast(140%);
+  transition: 0.5s ease-in-out;
+}
+.cadre::before,
+.cadre::after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 20%;
+  height: 20%;
+  border: 1px solid;
+  transition: 0.6s ease;
+  border-radius: 2px;
+  z-index: -1;
+}
+.cadre::before {
+  top: 15px;
+  left: 0;
+  border-bottom-color: transparent;
+  border-right-color: transparent;
+}
+.cadre::after {
+  bottom: 0;
+  right: 15px;
+  border-top-color: transparent;
+  border-left-color: transparent;
+}
+.cadre:hover:before,
+.cadre:hover:after {
+  border-color: #aca49c;
+  width: 100%;
+  height: 100%;
+}
+.legende {
+  max-width: 350px;
+  padding-top: 50px 0 0 20px;
+  opacity: 0.3;
+  transition: 5s ease-in-out;
+}
+.projet:hover .legende {
+  opacity: 1;
+  transition: 2s ease;
+}
+.legende a {
+  padding: 16px 10px 10px 10px;
+  margin-top: 20px;
+  font-size: 1.1em;
+  float: right;
+  border-radius: 3px;
+  background: #e2dedb;
+  animation: shadow-pop-br 0.3s cubic-bezier(0.47, 0, 0.745, 0.715) both;
+}
+.legende a:active {
+  animation: shadow-push-br 0.3s cubic-bezier(0.47, 0, 0.745, 0.715) both;
+}
+
+@keyframes shadow-pop-br {
+  0% {
+    box-shadow: 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e,
+      0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e;
+    transform: translateX(0) translateY(0);
+  }
+  100% {
+    box-shadow: 1px 1px #3e3e3e, 2px 2px #3e3e3e, 3px 3px #3e3e3e,
+      4px 4px #3e3e3e, 5px 5px #3e3e3e, 6px 6px #3e3e3e, 7px 7px #3e3e3e,
+      8px 8px #3e3e3e;
+    transform: translateX(-8px) translateY(-8px);
+  }
+}
+
+@keyframes shadow-push {
+  0% {
+    box-shadow: 1px 1px #3e3e3e, 2px 2px #3e3e3e, 3px 3px #3e3e3e,
+      4px 4px #3e3e3e, 5px 5px #3e3e3e, 6px 6px #3e3e3e, 7px 7px #3e3e3e,
+      8px 8px #3e3e3e;
+    transform: translateX(-8px) translateY(-8px);
+  }
+  100% {
+    box-shadow: 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e,
+      0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e;
+    transform: translateX(0) translateY(0);
+  }
+}
+
+/* ///////////////////////// HOBBIES ///////////////////////// */
+
+#hobbies {
+  padding: 0 120px 120px;
+  background: #172c5f;
+}
+#hobbies h3 {
+  color: rgb(160, 232, 245);
+}
+.hobbies_container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.picture_description {
+  font-size: 1.5rem;
+  color: rgb(160, 232, 245);
+  text-shadow: 0px 0px 10px rgb(255, 255, 255);
+  transition: 0.8s ease;
+  opacity: 0;
+}
+.picture {
+  transition: 0.5s ease;
+}
+.picture_container:hover .picture {
+  transform: translateY(-40px);
+  box-shadow: 0 0 15px white;
+}
+.picture_container:hover .picture_description {
+  transform: translateY(-40px);
+  opacity: 1;
+}
+/* TRANSITION */
+.transition {
+  height: 100px;
+  background: linear-gradient(
+    180deg,
+    rgba(23, 44, 95, 1) 0%,
+    rgba(8, 19, 48, 1) 100%
+  );
+}
+/* ///////////////////////// FOOTER ///////////////////////// */
+footer {
+  background: #081330;
+  text-align: center;
+  padding: 160px 50px 5px 50px;
+}
+footer h3 {
+  color: rgb(160, 232, 245);
+  padding-bottom: 60px;
+  font-size: 2.5em;
+}
+.footer-icons {
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  max-width: 60%;
+}
+.network {
+  font-size: 4em;
+  border: 1px solid rgb(160, 232, 245);
+  padding: 30px 45px;
+  color: rgb(160, 232, 245);
+  z-index: -1 !important;
+  border-radius: 50%;
+}
+.network:hover {
+  background-color: rgb(160, 232, 245);
+  transition: all 0.3s ease-in-out;
+  color: rgba(23, 44, 95, 1);
+}
+.arrow {
+  margin: 20px auto;
+  padding-top: 15px;
+  animation: arrow 1.5s linear infinite;
+}
+.arrow a {
+  font-size: 3em;
+  border: none;
+  color: rgb(160, 232, 245);
+}
+.arrow a:hover i {
+  transform: scale(1.6);
+  transition: 0.5s ease;
+  color: rgb(160, 232, 245);
+}
+@keyframes arrow {
+  0% {
+    transform: translateY(0px);
+  }
+  38% {
+    transform: translateY(8px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+.copyright {
+  color: rgb(160, 232, 245);
+}
+/* 1:35:20 FORMULAIRE EN PHP */
+
+/* 
+------------------
+EDIT A FAIRE
+------------------
+
+partie formation :
+PROGRESS BAR  adaptée à la formation en cours OnlineFormaPro
+
+Pas sur les langages (display des compétences sur une barre suffisante)
+
+Fusionner Langages & frameworks avec Formation
+
+Mettre logos uniquement et pas texte pour aérer
+
+
+contacts linked-in etc vers header au lieu de footer? voir
+ou mettre petits icones vers CV
+
+------------------
+PARTIE PROJET CV
+------------------
+
+Finaliser vitrine : harmoniser couleurs et faire charte graphique
+
+*/
