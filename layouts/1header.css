@@ -1,0 +1,77 @@
+/* HEADER */
+.navbar {
+  background-color: #fafafa;
+  opacity: 0.9;
+  height: 42px;
+  transition: 0.7s;
+}
+.navbar-nav {
+  width: 80% !important;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+header {
+  text-align: center;
+  height: 100vh;
+  background: url("../media/header2.jpg") no-repeat fixed 50% 50%;
+  background-size: cover;
+}
+h1 {
+  padding: 90px 0 10px 0;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 4em;
+  text-transform: uppercase;
+}
+#line {
+  height: 1px;
+  background-color: #b3aca7;
+  width: 25%;
+  margin: 0 auto;
+}
+h2 {
+  padding: 20px 0 50px 0;
+  font-size: 3em;
+  text-transform: uppercase;
+}
+.presentation {
+  height: 240px;
+  margin-top: 20px;
+}
+.infos {
+  border: 1px solid #b3aca7;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+.photo {
+  border: 1px solid #b3aca7;
+  position: relative;
+}
+.photo img {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  height: auto;
+  max-width: 90%;
+  border-radius: 3px;
+  box-shadow: 0 0 4px #111;
+}
+header .button {
+  margin-top: 45px;
+}
+header .button a {
+  padding: 20px 80px;
+  border: 1px solid #b3aca7;
+  width: 300px;
+}
+header .button:hover a {
+  background: #b3aca7;
+  color: #e2dedb;
+  transition: all 0.3s ease-in-out;
+  text-decoration: none;
+}
+/* END OF HEADER */
