@@ -44,7 +44,8 @@
   text-align: center;
 }
 .img-container {
-  height: 250px;
+  height: auto;
+  max-height: 250px;
   width: 90%;
   max-width: 500px;
   overflow: hidden;
@@ -54,6 +55,7 @@
 .img-container img {
   position: relative;
   height: 100%;
+  width: 100%;
   margin: 0 auto;
 }
 .img-container :hover img {

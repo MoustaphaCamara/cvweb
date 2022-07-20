@@ -15,9 +15,12 @@
     width: 65%;
   }
   /* HOBBIES */
+
   .hobbies_container {
+    justify-content: space-around;
     flex-wrap: wrap;
   }
+
   /* PORTFOLIO */
   .cadre {
     width: 90%;
