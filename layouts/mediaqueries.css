@@ -94,6 +94,11 @@
 }
 
 @media screen and (max-width: 420px) {
+  /* HEADER */
+  nav {
+    visibility: hidden;
+  }
+  /* FOOTER */
   .icon {
     transform: scale(0.5);
   }
