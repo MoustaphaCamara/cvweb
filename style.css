@@ -2,8 +2,7 @@
 @import url("./layouts/1header.css");
 @import url("./layouts/2skills.css");
 @import url("./layouts/3experience.css");
-@import url("./layouts/4formation.css");
-@import url("./layouts/5portfolio.css");
-@import url("./layouts/6hobbies.css");
-@import url("./layouts/7footer.css");
+@import url("./layouts/4portfolio.css");
+@import url("./layouts/5hobbies.css");
+@import url("./layouts/6footer.css");
 @import url("./layouts/mediaqueries.css");
