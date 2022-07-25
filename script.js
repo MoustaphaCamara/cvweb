@@ -22,6 +22,9 @@ var typed = new Typed(".typed", {
   smartBackspace: true,
   //     loop: true,
 });
+// Screen Orientation Lock
+
+screen.orientation.lock(orientation);
 
 // --------------------- DATE OF THE DAY
 date = new Date();
