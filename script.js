@@ -22,6 +22,7 @@ var typed = new Typed(".typed", {
   smartBackspace: true,
   //     loop: true,
 });
+
 // --------------------- DATE OF THE DAY
 date = new Date();
 year = date.getFullYear();
