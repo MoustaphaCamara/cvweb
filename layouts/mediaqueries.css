@@ -1,0 +1,105 @@
+@media screen and (max-width: 1120px) {
+  * {
+    transition: 0.5s ease;
+  }
+  /* SKILLS */
+  .front-end,
+  .back-end,
+  .frameworks,
+  .cms,
+  .design,
+  .environment {
+    justify-content: space-around;
+  }
+  .skill {
+    width: 65%;
+  }
+  /* HOBBIES */
+
+  .hobbies_container {
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+
+  /* PORTFOLIO */
+  .cadre {
+    width: 90%;
+  }
+  /* CONTACT */
+  .footer-icons {
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 100%;
+  }
+  .icon {
+    transition: 0.5s ease-in-out;
+    transform: scale(0.7);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  /* HEADER */
+  .infos,
+  .photo {
+    border-left: none;
+    border-right: none;
+  }
+}
+@media screen and (max-width: 650px) {
+  h1 {
+    font-size: 3em;
+  }
+  h2 {
+    font-size: 2em;
+  }
+  h3 {
+    font-size: 1.5em !important;
+  }
+  h4 {
+    font-size: 1.2em !important;
+  }
+
+  /* SKILLS */
+  .front-end,
+  .back-end,
+  .frameworks,
+  .cms,
+  .design,
+  .environment {
+    flex-wrap: wrap;
+  }
+  .skill_container img {
+    display: none;
+  }
+  .skill {
+    width: 80%;
+  }
+  /* PARCOURS */
+
+  #parcours p,
+  #formation p {
+    font-size: 0.9rem;
+    line-height: 2rem;
+    overflow-wrap: normal;
+  }
+  .left_part {
+    display: none;
+  }
+  .right_part {
+    padding-left: 0;
+  }
+  .right_part::before {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  /* HEADER */
+  nav {
+    visibility: hidden;
+  }
+  /* FOOTER */
+  .icon {
+    transform: scale(0.5);
+  }
+}

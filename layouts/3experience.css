@@ -1,0 +1,46 @@
+/* PARCOURS & FORMATION */
+#parcours,
+#formation {
+  width: 90%;
+  margin: 0 auto;
+}
+#parcours h3,
+#formation h3 {
+  text-align: center;
+  margin: 30px auto;
+}
+#parcours h3 {
+  margin: -50px auto 30px;
+}
+#parcours p,
+#formation p {
+  line-height: 2rem;
+  overflow-wrap: normal;
+}
+.experience {
+  width: 80%;
+  /* min-width: 600px; */
+  max-width: 760px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-evenly;
+}
+.left_part {
+  width: 30%;
+  border-right: 4px solid rgb(199, 199, 199);
+  padding-right: 20px;
+}
+.right_part {
+  padding-left: 100px;
+  position: relative;
+}
+.right_part::before {
+  content: "";
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: rgb(199, 199, 199);
+  left: -12px;
+}
+/* END OF PARCOURS & FORMATION */

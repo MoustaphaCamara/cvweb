@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Audiowide&family=Josefin+Sans:wght@100&family=Rambla&display=swap");
+@import url("http://fonts.cdnfonts.com/css/kuiper-belt");
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden !important;
+}
+body {
+  color: #283655 !important;
+  background-color: #f7faff !important;
+  font-family: "Rambla", sans-serif;
+}
+h2,
+h3 {
+  font-family: "Kuiper Belt", sans-serif;
+
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  text-shadow: -1px -1px 1px #283655;
+}
+li {
+  list-style-type: none;
+}
