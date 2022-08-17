@@ -27,11 +27,12 @@
 }
 .left_part {
   width: 30%;
-  min-width:60px;
+  min-width: 60px;
   border-right: 4px solid rgb(199, 199, 199);
   padding-right: 20px;
 }
 .right_part {
+  width: 100%;
   padding-left: 100px;
   position: relative;
 }
