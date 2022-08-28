@@ -23,9 +23,17 @@ footer h3 {
   z-index: -1 !important;
   border-radius: 50%;
 }
+
 .network:hover {
   background-color: rgb(180, 98, 98);
   transition: all 0.3s ease-in-out;
+  color: #252525;
+  cursor: pointer;
+}
+.fa-envelope:last-child {
+  color: rgb(180, 98, 98);
+}
+.network:hover .fa-envelope {
   color: #252525;
 }
 .arrow {

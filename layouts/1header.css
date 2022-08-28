@@ -1,4 +1,58 @@
 /* HEADER */
+
+/* BURGER */
+.burger,
+.burger-menu {
+  display: none;
+  mix-blend-mode: difference;
+}
+.burger,
+.burger::before,
+.burger::after {
+  position: fixed;
+  width: 30px;
+  height: 7px;
+  background: #cfc4aa;
+  box-shadow: 0 0 3px #cfc4aa;
+  transition: 0.5s ease;
+  z-index: 10001;
+  top: 5px;
+  right: 5px;
+}
+.burger::before,
+.burger::after {
+  content: "";
+  position: absolute;
+  right: 0px;
+}
+.burger::before {
+  top: 10px;
+}
+.burger::after {
+  top: 20px;
+}
+/* BURGER CONTENT */
+.burger-menu {
+  z-index: 10000;
+  position: fixed;
+  right: 0;
+  top: 0;
+  opacity: 0;
+  transition: 0.5s ease;
+  transform: translateY(-400px);
+}
+.burger-menu a {
+  font-size: 2rem;
+  color: #cfc4aa;
+}
+.show-menu {
+  opacity: 1;
+  transform: translateY(0px);
+}
+.burger-close {
+  transform: translateX(-50px);
+}
+/* NAVBAR */
 .navbar {
   background-color: #fafafa;
   opacity: 0.9;
@@ -13,7 +67,7 @@
 header {
   text-align: center;
   height: 100vh;
-  background: url("../media/header2.jpg") no-repeat fixed 50% 50%;
+  background: url("../media/header.jpg") no-repeat fixed 50% 50%;
   background-size: cover;
 }
 h1 {
@@ -73,5 +127,8 @@ header .button:hover a {
   color: #e2dedb;
   transition: all 0.3s ease-in-out;
   text-decoration: none;
+}
+h5 a {
+  color: #283655;
 }
 /* END OF HEADER */

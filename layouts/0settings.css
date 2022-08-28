@@ -3,6 +3,7 @@
 html {
   scroll-behavior: smooth;
   overflow-x: hidden !important;
+  cursor: none;
 }
 body {
   color: #283655 !important;
@@ -19,4 +20,29 @@ h3 {
 }
 li {
   list-style-type: none;
+}
+/* CURSOR */
+.inner-cursor,
+.outer-cursor {
+  mix-blend-mode: difference;
+  position: absolute;
+  transition: 0s !important;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  z-index: 1000000;
+  pointer-events: none;
+}
+.inner-cursor {
+  width: 10px;
+  height: 10px;
+  background: #283655;
+}
+.outer-cursor {
+  width: 30px;
+  height: 30px;
+  background: red;
+}
+/* HIDDEN ES/EN */
+.hidden {
+  display: none;
 }

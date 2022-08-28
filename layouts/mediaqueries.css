@@ -46,6 +46,13 @@
   }
 }
 @media screen and (max-width: 650px) {
+  nav {
+    display: none !important;
+  }
+  .burger,
+  .burger-menu {
+    display: inline;
+  }
   h1 {
     font-size: 3em;
   }
@@ -58,7 +65,6 @@
   h4 {
     font-size: 1.2em !important;
   }
-
   /* SKILLS */
   .front-end,
   .back-end,
