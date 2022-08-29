@@ -26,7 +26,21 @@ var typed = new Typed(".typed", {
   //     loop: true,
 });
 
+// BURGER MENU NEW - modal
+
+let burger = document.querySelector(".burger");
+let nav = document.querySelector(".burger-container");
+
+burger.addEventListener("click", () => {
+  nav.style.display = "flex";
+});
+nav.addEventListener("click", () => {
+  nav.style.display = "none";
+});
+
+// ANCIEN: burger menu toggle
 // --------------------- BURGER MENU
+/*
 let burger = document.querySelector(".burger");
 let menu = document.querySelector(".burger-menu");
 
@@ -39,7 +53,7 @@ menu.addEventListener("click", () => {
   menu.classList.toggle("show-menu");
   burger.classList.toggle("burger-close");
 });
-
+*/
 // NEW TAB
 function NewTab() {
   window.open("./mail.html", "Contactez-moi", "width=700, height=660");
