@@ -1,46 +1,75 @@
 /* SKILLS */
+
 #skills {
   background: rgb(243, 243, 243);
+
   text-align: center;
+
   padding: 60px 0;
+
   margin-top: 5px;
 }
+
 #skills h3 {
   font-size: 2.5em;
+
   padding-bottom: 30px;
+
   text-shadow: -2px 1px 2px #908f8f;
+
   margin-top: 100px;
 }
+
+.note {
+  font-size: 0.8rem;
+}
+
 .skill_container {
   width: 70%;
+
   margin: 0 auto;
+
   display: flex;
+
   flex-direction: column;
+
   align-items: center;
+
   background: url("../media/competences.jpg") 50% 50% no-repeat fixed;
+
   background-size: cover;
+
   border-radius: 30px;
 }
+
 .skill {
   border-radius: 30px;
+
   width: 50%;
+
   height: auto;
+
   margin: 30px;
+
   background: rgba(253, 253, 253, 0.651);
 }
+
 .skill h4 {
   margin: 20px auto;
 }
+
 .front-end .skill,
 .frameworks .skill,
 .design .skill {
   box-shadow: -2px 2px 3px 0px grey;
 }
+
 .back-end .skill,
 .cms .skill,
 .environment .skill {
   box-shadow: 2px 2px 3px 0px grey;
 }
+
 .front-end,
 .back-end,
 .frameworks,
@@ -48,39 +77,58 @@
 .design,
 .environment {
   align-items: center;
+
   width: 100%;
+
   display: flex;
+
   justify-content: space-evenly;
 }
+
 .skill_container img {
   width: 150px;
+
   height: auto;
 }
+
 .htmlseo,
-.csssass {
+.csssass,
+.jsts {
   width: 60%;
+
   margin: 0 auto;
+
   display: flex;
+
   justify-content: space-around;
 }
+
 .back-end,
 .cms,
 .environment {
   flex-direction: row-reverse;
 }
+
 .inprogress {
   color: #5782c2;
 }
+
 .otherskills {
   padding: 20px;
+
   background: rgba(255, 255, 255, 0.349);
+
   align-items: center;
+
   margin-bottom: 0;
 }
+
 .other {
   width: 100%;
 }
+
 .other_container {
   margin-top: 20px;
 }
+
 /* END OF SKILLS */
