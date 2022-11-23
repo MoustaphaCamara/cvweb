@@ -24,7 +24,7 @@ var typed = new Typed(".typed", {
   strings: [
     "Bonjour, je m'appelle Moustapha.",
 
-    "Je suis un développeur web en formation chez nlineFormaPro. Je suis en recherche de stage en entreprise (7 semaines) afin d'acquérir de l'expérience sur les technologies front et back-end, notamment ReactJs et NodeJS. Je suis tout de même ouvert à de nouvelles technologies et serai ravi d'apprendre à les manier. Mes connaissances en HTML, CSS( & SCSS), JS et React me permettent de faire preuve de flexibilité dans mes projets et mes propositions. Je suis ouvert à toute opportunité, au plaisir de travailler avec vous.",
+    "Je suis un développeur web en formation chez OnlineFormaPro. Je suis en recherche de stage en entreprise (7 semaines) afin d'acquérir de l'expérience sur les technologies front et back-end, notamment ReactJs et PHP/MySQL. Je suis tout de même ouvert à de nouvelles technologies et serai ravi d'apprendre à les manier. Mes connaissances en HTML, SCSS, et React me permettent de faire preuve de flexibilité dans mes projets et mes propositions. Je suis ouvert à toute opportunité, au plaisir de travailler avec vous.",
   ],
 
   typeSpeed: 20,

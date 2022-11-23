@@ -15,12 +15,10 @@
     width: 65%;
   }
   /* HOBBIES */
-
   .hobbies_container {
     justify-content: space-around;
     flex-wrap: wrap;
   }
-
   /* PORTFOLIO */
   .cadre {
     width: 90%;
@@ -36,7 +34,6 @@
     transform: scale(0.7);
   }
 }
-
 @media screen and (max-width: 768px) {
   /* HEADER */
   .infos,
@@ -81,7 +78,6 @@
     width: 80%;
   }
   /* PARCOURS */
-
   #parcours p,
   #formation p {
     font-size: 0.9rem;
@@ -98,7 +94,6 @@
     display: none;
   }
 }
-
 @media screen and (max-width: 420px) {
   /* HEADER */
   nav {
@@ -107,5 +102,16 @@
   /* FOOTER */
   .icon {
     transform: scale(0.5);
+  }
+}
+@media screen and (max-width: 480px) {
+  .inner-cursor,
+  .outer-cursor {
+    display: none;
+  }
+}
+@media screen and (min-width: 480px) {
+  html {
+    cursor: none;
   }
 }

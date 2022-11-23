@@ -3,7 +3,6 @@
 html {
   scroll-behavior: smooth;
   overflow-x: hidden !important;
-  cursor: none;
 }
 body {
   color: #283655 !important;
@@ -41,8 +40,4 @@ li {
   width: 30px;
   height: 30px;
   background: red;
-}
-/* HIDDEN ES/EN */
-.hidden {
-  display: none;
 }
