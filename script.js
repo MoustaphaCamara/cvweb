@@ -14,22 +14,22 @@ window.addEventListener("scroll", () => {
   lastScroll = window.scrollY;
 });
 
-// --------------------- Appear On Scroll AOS
+// --------------------- Aos Library
 
 AOS.init();
 
-// --------------------- TYPED
+// --------------------- TYPED library
 
 var typed = new Typed(".typed", {
   strings: [
     "Bonjour, je m'appelle Moustapha.",
 
-    "Je suis un développeur web en formation chez OnlineFormaPro. Je suis en recherche de stage en entreprise (7 semaines) afin d'acquérir de l'expérience sur les technologies front et back-end, notamment ReactJs et PHP/MySQL. Je suis tout de même ouvert à de nouvelles technologies et serai ravi d'apprendre à les manier. Mes connaissances en HTML, SCSS, et React me permettent de faire preuve de flexibilité dans mes projets et mes propositions. Je suis ouvert à toute opportunité, au plaisir de travailler avec vous.",
+    "Je suis en formation développeur web/mobile chez OnlineFormaPro. Dans le cadre de ma reconversion, j'y étudie les langages de base du développement web et m'oriente sur les frameworks front-end principalement. \n Initié à React (puis NextJs et Redux), je pratique actuellement VueJs afin de préparer mon stage chez bsOft.fr qui commencera en janvier 2023. \n Je pense par la suite étudier Symfony ou Laravel afin de compléter ma stack et être polyvalent sur les missions en entreprise.",
   ],
 
-  typeSpeed: 20,
+  typeSpeed: 15,
 
-  backSpeed: 60,
+  backSpeed: 40,
 
   smartBackspace: true,
 
@@ -39,7 +39,6 @@ var typed = new Typed(".typed", {
 // BURGER MENU NEW - modal
 
 let burger = document.querySelector(".burger");
-
 let nav = document.querySelector(".burger-container");
 
 burger.addEventListener("click", () => {
@@ -53,54 +52,27 @@ nav.addEventListener("click", () => {
 // ANCIEN: burger menu toggle
 
 // --------------------- BURGER MENU
-
 /*
-
 let burger = document.querySelector(".burger");
-
 let menu = document.querySelector(".burger-menu");
-
-
-
 burger.addEventListener("click", () => {
-
   menu.classList.toggle("show-menu");
-
   burger.classList.toggle("burger-close");
-
 });
-
-
-
 menu.addEventListener("click", () => {
-
   menu.classList.toggle("show-menu");
-
   burger.classList.toggle("burger-close");
-
 });
-
 */
-
-// NEW TAB
-
-function NewTab() {
-  window.open("./mail.html", "Contactez-moi", "width=700, height=660");
-}
 
 // MOUSEMOVE EVENT
 
 let innerCursor = document.querySelector(".inner-cursor");
-
 let outerCursor = document.querySelector(".outer-cursor");
-
 document.addEventListener("mousemove", (e) => {
   innerCursor.style.top = e.pageY + "px";
-
   innerCursor.style.left = e.pageX + "px";
-
   outerCursor.style.top = e.pageY + "px";
-
   outerCursor.style.left = e.pageX + "px";
 });
 
