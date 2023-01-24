@@ -31,7 +31,7 @@ footer h3 {
   color: #252525;
   cursor: pointer;
 }
-.fa-envelope:last-child {
+.fa-envelope:nth-last-of-type() {
   color: rgb(180, 98, 98);
 }
 .network:hover .fa-envelope {
