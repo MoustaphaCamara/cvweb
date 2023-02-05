@@ -15,8 +15,8 @@ AOS.init();
 // --------------------- TYPED library
 var typed = new Typed(".typed", {
   strings: [
-    "Bonjour, je m'appelle Moustapha.",
-    "Je suis en formation développeur web/mobile chez OnlineFormaPro. Dans le cadre de ma reconversion, j'y étudie les langages de base du développement web et m'oriente sur les frameworks front-end principalement. \n Initié à React (puis NextJs), je pratique actuellement VueJs & Nuxt, en stage chez bsOft.fr. \n",
+    "-- Développeur full stack --",
+    `Je suis en formation développeur web/mobile chez OnlineFormaPro. C'est un cursus fullstack, dans lequel j'ai choisi après divers projets de m'orienter sur les frameworks front-end, principalement. \n Initié à React (puis NextJs), je pratique actuellement VueJs et Nuxt, en stage chez bsOft.fr. \n`,
   ],
   typeSpeed: 15,
   backSpeed: 40,
@@ -42,4 +42,22 @@ document.addEventListener("mousemove", (e) => {
   innerCursor.style.left = e.pageX + "px";
   outerCursor.style.top = e.pageY + "px";
   outerCursor.style.left = e.pageX + "px";
+});
+
+// DISPLAY WEBSITE LINK
+const checkboxes = document.querySelectorAll('input[type="checkbox"]');
+const websites = document.querySelectorAll(".company-website");
+console.log(checkboxes);
+checkboxes.forEach((checkbox) => {
+  console.log(checkbox.nextElementSibling);
+  checkbox.addEventListener("click", () => {
+    if (checkbox.checked == true) {
+      checkbox.nextElementSibling.style.opacity = 1;
+      console.log("actif");
+    } else {
+      checkbox.nextElementSibling.style.opacity = 0;
+      console.log("inactif");
+      x;
+    }
+  });
 });

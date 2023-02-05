@@ -4,6 +4,28 @@
   padding: 40px 10px 60px 40px;
   background-color: rgba(179, 172, 167, 0.08);
   box-shadow: 0px 0px 1px #a8a8a9;
+  /* height: 60vh; */
+  /* overflow: scroll; */
+}
+/* width */
+#portfolio::-webkit-scrollbar {
+  width: 12px;
+}
+/* Track */
+#portfolio::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+#portfolio::-webkit-scrollbar-thumb {
+  background: rgb(180, 98, 98);
+  width: 10px;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+#portfolio::-webkit-scrollbar-thumb:hover {
+  background: #000;
 }
 #portfolio h3,
 #parcours h3,
@@ -24,8 +46,9 @@
 .projet {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
-.projet:nth-child(2) {
+/* .projet:nth-child(2) {
   margin-left: 3%;
 }
 .projet:nth-child(3) {
@@ -42,7 +65,7 @@
 }
 .projet:nth-child(7) {
   margin-left: 6%;
-}
+} */
 /* .projet:nth-child(8) {
   margin-left: 3%;
 } */

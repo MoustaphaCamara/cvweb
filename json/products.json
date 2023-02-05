@@ -1,0 +1,128 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "Tokyo Ghoul T4",
+      "price": 8,
+      "img": "https://moustaphacamara.fr/json/img/tg4.jpeg",
+      "description": "Durant son combat contre un inspecteur du CCG., Ken réalise que son entrée dans le monde des goules a laissé sur lui une marque indélébile. Mais il lui faudra du temps avant de prendre pleinement conscience de ce que cela implique… Quant au café “Antique”, il reçoit la visite d’une nouvelle goule, Shu Tsukiyama, dit “le gourmet”. Ce fervent gastronome en quête permanente de saveurs nouvelles semble intrigué par Ken et tente de se lier d’amitié avec lui…"
+    },
+    {
+      "id": 2,
+      "title": "Tokyo Ghoul T9",
+      "price": 7.99,
+      "img": "https://moustaphacamara.fr/json/img/tg9.jpeg",
+      "description": "Six mois ont passé depuis l'assaut dans le 11e arrondissement. L'expédition du CCG contre Aogiri donne lieu à une série de promotions au sein des inspecteurs. Kotaro Amon, devenu inspecteur en chef, se voit enfin attribué la responsabilité d'un novice dont l'identité a de quoi surprendre. Ken s'est quant à lui éloigné de l'Antique pour remonter la piste de Lize jusque dans le 6e arrondissement, avec l'aide de Shu et Banjo. \n Mais le fil de leurs enquêtes respectives va fatalement rapprocher Ken et Kotaro..."
+    },
+    {
+      "id": 3,
+      "title": "Tokyo Ghoul T12",
+      "price": 6.99,
+      "img": "https://moustaphacamara.fr/json/img/tg12.jpeg",
+      "description": "En blessant l’un de ses amis, Ken ressent une culpabilité libératrice qui le pousse à écouter ce que tente de lui dire son entourage. Les “goules” vont alors lui dévoiler petit à petit leur passé et leur vrai visage... \n Dans le même temps, le CCG est en passe de résoudre l’énigme posée par la “Chouette” et la compréhension d’une “réalité indiscutable” pousse le Centre à passer à l’action. \n Mais c’est sans compter sur une “nouvelle réalité” qui apparaît sous les traits de l’écrivain de génie, Sen Takatsuki..."
+    },
+    {
+      "id": 4,
+      "title": "Tokyo Ghoul T13",
+      "price": 9.99,
+      "img": "https://moustaphacamara.fr/json/img/tg13.jpeg",
+      "description": "“Je vais retourner à l’“Antique”.” \n C’est ainsi que Ken décide de fermer son repaire du 6e arrondissement pour retourner dans le 20e, près du patron Yoshimura.\n Pour tout reprendre à zéro. Pour retrouver celui qu’il était avant.\n Au même moment, le CCG s’apprête à lancer une vaste opération pour éliminer la “Chouette”. Une foule d’inspecteurs brûle de mettre un terme à une lutte vieille de dix ans, à l’aide des instruments de mort forgés à partir des dépouilles de leurs ennemis.\n Ce combat se déroulera dans le 20e. Sur le seuil du café l’“Antique”."
+    },
+    {
+      "id": 5,
+      "title": "Tokyo Ghoul T14",
+      "price": 8.99,
+      "img": "https://moustaphacamara.fr/json/img/tg14.jpeg",
+      "description": "“J’aimerais connaître ton histoire.”\n Une requête étrange, alors même que l’opération du CCG destinée à abattre la “Chouette” atteint son paroxysme. Devant Ken qui fonce vers l’“Antique” se tient l’auteur de cette requête, l’inspecteur Kotaro Amon. Ken et Kotaro, deux destinées vouées à s’affronter, jusqu’à la plus incertaine des issues..."
+    },
+    {
+      "id": 6,
+      "title": "Tokyo Ghoul:RE T8",
+      "price": 8.99,
+      "img": "https://moustaphacamara.fr/json/img/tgre8.jpeg",
+      "description": "Pour résister à la montée en puissance de goules qui se structurent en groupes toujours plus organisés, le CCG lance le “projet Quinckes” afin de former des inspecteurs qui dépassent en efficacité le célèbre Kisho Arima. Les quatre Quinckes et leur mentor Sasaki sont d’abord rejetés par leurs collègues, mais ils prouvent leur valeur lors de l’opération d’extermination du clan Tsukiyama, qui fait de nombreuses victimes dans les deux camps. Le CCG, qui compte à présent détruire “Aogiri”, découvre que le quartier général de cette organisation se trouve sur l’île de Rushima. À l’occasion de la sortie de son dernier livre, Le Roi Bileygr, la romancière Sen Takatsuki annonce publiquement qu’elle est une goule. Le fossé commence alors à se creuser entre les humains, les goules et le CCG autour de la question du supposé chef d’Aogiri, le “Roi à l’œil écarlate”. Haise Sasaki, de garde à la Cochlée, décide d’attaquer la prison pour libérer Hinami. Alors qu’il s’apprête à s’enfuir avec elle, il se retrouve face à l’inspecteur Kisho Arima armé de la “Chouette”, un quinque de niveau SSS. Le combat commence, mais Haise est incapable de résister à son adversaire. Il se plonge alors dans les souvenirs de son ami Hide pour retrouver la force de vivre..."
+    },
+    {
+      "id": 7,
+      "title": "Tokyo Ghoul:RE T9",
+      "price": 7.99,
+      "img": "https://moustaphacamara.fr/json/img/tgre9.jpeg",
+      "description": "« Tu es un inspecteur ! » \n Un cri résonne sur l’île de Rushima où les victimes s’accumulent, engloutissant le repaire d’Aogiri sous leur nombre. \n Le groupe Suzuya se heurte à la rancœur d’un étrange duo de jumelles, sous le regard d’un médecin manipulateur. \n La dernière goule de Chi Shé brûle d’affronter son vieil ennemi. \n Le groupe Qs d’Urie, parti à la recherche de Mutsuki, se retrouve face à un terrible spectacle. \n Le CCG et les goules, deux mondes que tout oppose, entrent en collision. Et commencent à s’entremêler..."
+    },
+    {
+      "id": 8,
+      "title": "Tokyo Ghoul:RE T10",
+      "price": 7.99,
+      "img": "https://moustaphacamara.fr/json/img/tgre10.jpeg",
+      "description": "« Un monde où humains et goules puissent se comprendre. » \n Ken est devenu le nouveau Roi à l’œil écarlate. Héritier de la volonté de son prédécesseur, sa mémoire à présent retrouvée, il décide de rejoindre le Café :re. \n Dans ce lieu où flottent les arômes nostalgiques des graines torréfiées, les compagnons d’autrefois accompagnés de nombreuses goules se pressent autour de leur nouveau roi. \n  Il est ici pour une raison précise. \n Il veut donner aux goules et aux humains une chance de se comprendre. Pour cela, il fonde un nouveau groupe de combattants, les Chèvres Noires, et lui donne pour but de forcer le CCG à discuter. \n Son objectif est simple : détruire la coquille de ce monde..."
+    },
+    {
+      "id": 9,
+      "title": "Tokyo Ghoul:RE T11",
+      "price": 6.99,
+      "img": "https://moustaphacamara.fr/json/img/tgre11.jpeg",
+      "description": "“Je vous en supplie, Sensei ! Je ne peux pas vivre sans vous !” \n Les goules aux masques de Pierrots lancent des attaques simultanées contre les antennes du CCG. Nimura Furuta, qui manipule les Pierrots dans l’ombre, soumet le Centre à sa volonté. Les Qs, formés par Haise Sasaki, ne parviennent pas à rester de marbre face aux actions des Chèvres noires dirigées par Ken Kaneki. Derrière sa volonté de révolutionner le rapport qu’entretiennent humains et goules, quel véritable objectif le Roi à l’œil écarlate cherche-t-il à atteindre ?"
+    },
+    {
+      "id": 10,
+      "title": "Tokyo Ghoul:RE T12",
+      "price": 7.99,
+      "img": "https://moustaphacamara.fr/json/img/tgre12.jpeg",
+      "description": "Yoriko, l'amie de Toka, va se marier avec l'inspecteur Takeomi Kuroiwa tandis qu'une nouvelle organisation créée par Furuta sème le chaos dans le monde des Goules : les 'Oggais'. \n Mais Kaneki, se fait aborder par Toka, pour une question très étrange… \n Que signifie cette question et quel futur attend le Roi à L'œil Écarlate ?"
+    },
+    {
+      "id": 11,
+      "title": "Tokyo Ghoul:RE T13",
+      "price": 6.99,
+      "img": "https://moustaphacamara.fr/json/img/tgre13.jpeg",
+      "description": "Urie a des doutes par rapport au directeur du CCG Nimura Furuta Washu. Il compte l'interroger avec l'inspecteur Iwao Kuroiwa dans son bureau. Pendant ce temps l'organisation de la chèvre noire dirigée par Ken Kaneki essaie de se réapprovisionner en chair humaine tandis que les Oggais tuent le plus de goules à l’extérieur pour mettre fin à l'espèce."
+    },
+    {
+      "id": 12,
+      "title": "Tokyo Ghoul:RE T16",
+      "price": 12.99,
+      "img": "https://moustaphacamara.fr/json/img/tgre16.jpeg",
+      "description": "C'est le dernier retranchement, le CCG, allié aux Goules, se bat contre l'organisation V. Pendant ce temps Ken visite le 24e arrondissement, en compagnie d'Ayato."
+    },
+    {
+      "id": 13,
+      "title": "Jujutsu Kaisen 01",
+      "price": 7.99,
+      "img": "https://moustaphacamara.fr/json/img/jjk1.jpg",
+
+      "description": "Chaque année au Japon, on recense plus de 10 000 morts inexpliquées et portés disparus. \n  Dans la majorité des cas, ce sont les sentiments négatifs des êtres humains qui sont en cause. Souffrance, regrets, humiliation : leur accumulation dans un même endroit provoque des malédictions souvent fatales... \n C'est ce que va découvrir à ses dépens Yuji Itadori, lycéen et membre du club de spiritisme. Il ne croit pas aux fantômes, mais sa force physique hors du commun est un précieux atout pour les missions du groupe... jusqu'à ce que l'une d'elles tourne mal. La relique qu'ils dénichent, le doigt sectionné d'une créature millénaire, attire les monstres ! Le jeune homme n'hésite pas une seconde : il avale la relique pour conjurer le mauvais sort ! \n Le voilà possédé par Ryomen Sukuna, le célèbre démon à deux visages. Contre toute attente, Yuji réussit à reprendre le contrôle de son corps. C'est du jamais vu ! Malgré tout, il est condamné à mort par l'organisation des exorcistes... Une sentence qui ne pourra être repoussée qu'à une seule condition : trouver et ingérer tous les doigts de Sukuna afin d'éliminer la menace une fois pour toutes. Et pour ça, l'adolescent va devoir s'initier à l'art occulte et mystérieux de l'exorcisme ! \n Monstres assoiffés de sang, combats épiques et magie surpuissante : découvrez la nouvelle bombe dark fantasy ! Au cœur d'une lutte millénaire entre exorcistes et démons, comment garder son humanité alors même que le mal se tapit au plus profond de soi ?"
+    },
+    {
+      "id": 14,
+      "title": "Jujutsu Kaisen 02",
+      "price": 7.99,
+      "img": "https://moustaphacamara.fr/json/img/jjk2.jpg",
+
+      "description": "Un mystère est apparu dans une école de réinsertion pour mineurs. Yuji et les premières années de l'Académie des Sciences occultes de Tokyo s'allient afin de sauver le dernier survivant. Mais un problème leur fait barrage : une malédiction s'est transformée en un esprit malfaiteur de grade supérieur. Pour survivre, ils vont devoir faire leur preuve, seuls, face à cette menace inattendue et surpuissante. Parviendront-ils à s'en sortir ?"
+    },
+    {
+      "id": 15,
+      "title": "Jujutsu Kaisen 03",
+      "price": 7.99,
+      "img": "https://moustaphacamara.fr/json/img/jjk3.jpg",
+
+      "description": "À peine revenu d'entre les morts, Yuji doit s'entraîner dur pour rattraper son retard et espérer atteindre le niveau des autres apprentis exorcistes. En effet, depuis qu'il est devenu le réceptacle de Sukuna, il est la cible de toutes les convoitises ! Heureusement, Satoru a réservé un programme choc à son nouvel élève... \n Megumi et Nobara sont pendant ce temps mis à l'épreuve par deux étudiants venus de l'école d'exorcisme de Kyoto... et le moins que l'on puisse dire, c'est que le tournoi organisé entre les deux établissements promet d'être explosif !"
+    },
+    {
+      "id": 16,
+      "title": "Jujutsu Kaisen 04",
+      "price": 7.99,
+      "img": "https://moustaphacamara.fr/json/img/jjk4.jpg",
+
+      "description": "En attendant que Yuji puisse rejoindre l'école d'exorcisme, Satoru le confie à son collègue, Kento Nanami, pour enquêter sur une étrange affaire... En effet, les corps affreusement déformés de trois lycéens ont été retrouvés dans un cinéma. Le duo découvre très vite l'horrible vérité : certains fléaux seraient en fait des êtres humains ! Reste à savoir qui est capable d'opérer une telle transformation... \n Pendant que son mentor part en reconnaissance, Yuji rencontre Junpei, seul témoin du meurtre de ses camarades, et parvient même à se lier d'amitié avec lui. Mais tout bascule lorsque l'adolescent, victime de harcèlement scolaire, perd sa mère, sauvagement assassinée... Désormais, il ne pense plus qu'à se venger de tous ceux qui l'ont fait souffrir !"
+    },
+    {
+      "id": 17,
+      "title": "Jujutsu Kaisen 05",
+      "price": 7.99,
+      "img": "https://moustaphacamara.fr/json/img/jjk5.jpg",
+
+      "description": "Après un combat de longue haleine face au redoutable Mahito, Yuji doit préparer son retour en chair et en os à l'école d'exorcisme. En effet, le tournoi contre le lycée jumelé de Kyoto est sur le point de commencer, et les participants sont prêts à tout pour l'emporter... La chasse aux fléaux est ouverte ! \n Malheureusement pour l'adolescent, l'équipe adverse a en fait un tout autre plan en tête : supprimer pour de bon le réceptacle de Sukuna ! Et qui de mieux que le puissant Aoi Todo pour se débarrasser de lui ? Pour Yuji, l'épreuve prend soudain un tournant inattendu.."
+    }
+  ]
+}

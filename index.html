@@ -6,9 +6,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
   <meta
   name="description"
-  content="Site vitrine de Moustapha Camara - Développeur Front End VueJs NuxtJs React NextJs Redux"
+  content="Site vitrine de Moustapha Camara - Développeur Full stack React NextJs Redux VueJs NuxtJs"
 />
-  <title>Moustapha CAMARA - CV Développeur web - Front End</title>
+  <title>Moustapha CAMARA - CV Développeur web - Full Stack</title>
   <link rel="shortcut icon" href="./media/iconfullstack.png" />
   <link rel="stylesheet" href="./style.css" />
   <link rel="stylesheet" href="./assets/css/bootstrap.css" />
@@ -80,11 +80,11 @@
       </h1>
       <div id="line"></div>
       <h2 data-aos="fade-up" data-aos-duration="3000">
-        Développeur Front-end
+        Développeur Web
       </h2>
       <div class="container">
         <div class="row presentation">
-          <div class="col-6 col-md-3 infos">
+          <div class="col-12 col-md-3 infos">
             <h5><i class="fa fa-user"></i> 24 ans</h5>
             <h5><i class="fa fa-compass"></i> Lyon</h5>
             <h5><i class="fa fa-envelope"></i> cmr.mous@gmail.com</h5>
@@ -92,13 +92,13 @@
           <div class="d-none d-md-block col-md-6">
             <span class="typed"></span>
           </div>
-          <div class="col-6 col-md-3 photo" data-aos="flip-up">
+          <div class="d-none d-md-block col-md-3 photo" data-aos="flip-up">
             <img src="./media/photocv.jpg" alt="Photo-CV" />
           </div>
         </div>
-        <!-- <div class="button">
-          <a href="./media/CVM.pdf" target="_blank">CV en PDF</a>
-        </div> -->
+        <div class="button">
+          <a href="./media/CV_Fev03.pdf" target="_blank">CV en PDF</a>
+        </div>
       </div>
     </div>
   </header>
@@ -136,8 +136,9 @@
         <div class="frameworks" data-aos="zoom-in-right">
           <div class="skill">
             <h4>Frameworks & Librairies</h4>
-            <p>VueJs - NuxtJs</p>
             <p>React - NextJs</p>
+            <p>VueJs - NuxtJs</p>
+            <p>TailwindCSS</p>
             <p>Bootstrap</p>
             <p>Gsap - FramerJs - LocomotivJs - Aos</p>
             <p>AJAX(axios/fetch)</p>
@@ -193,7 +194,11 @@
       <div class="experience">
         <div class="left_part">2023</div>
         <div class="right_part" data-aos="fade-up">
-          <h4>bsOft.fr</h4>
+          <div class="experience-title">
+            <h4>bsOft.fr</h4>
+            <!-- <input type="checkbox" id="display-website">
+            <label for="display-website"><div class="triangle-red"></div> <a href="https://bsoft.fr" target="_blank" class="company-website" id="website">Site web</a> </label> -->
+          </div>
           <p>
               Dans le cadre de la préparation de mon Titre Professionnel de
               niveau 5, Développeur web & web mobile, j'effectue mon stage professionnel au sein de l'entreprise bsOft.fr.
@@ -203,7 +208,10 @@
       <div class="experience">
         <div class="left_part">2019-2022</div>
         <div class="right_part" data-aos="fade-up">
-          <h4>Ponsard & Dumas</h4>
+          <div class="experience-title">
+            <h4>Ponsard & Dumas</h4>
+            <!-- <div class="triangle-red"></div> -->
+          </div>
           <p><strong>
             Responsable logistique </strong><br />
             Chargé du service expédition dont la mission est de préparer et
@@ -222,7 +230,10 @@
       <div class="experience">
         <div class="left_part">2017-2019</div>
         <div class="right_part" data-aos="fade-up">
-          <h4>MSD Vaccins</h4>
+          <div class="experience-title">
+            <h4>MSD Vaccins</h4>
+            <!-- <div class="triangle-red"></div> -->
+          </div>
           <p>
             <strong>Assistant Accès au Marché & Politique publique</strong> <br />
             Support aux services Market Access, Public Policy,
@@ -238,7 +249,10 @@
       <div class="experience">
         <div class="left_part">2017</div>
         <div class="right_part" data-aos="fade-up">
-          <h4>ACTA</h4>
+          <div class="experience-title">
+            <h4>ACTA</h4>
+            <!-- <div class="triangle-red"></div> -->
+          </div>
           <p>
             <strong>
             Chargé d'assistance Smart/Mercedes Benz </strong>
@@ -599,10 +613,10 @@
       <div id="mangas">
         <div id="manga_picture">
           <img src="./media/hobbie1.jpg" alt="mangas-animes" />
-          <span class="anilist">Ma liste créée sur anilist :
+          <!-- <span class="anilist">Ma liste créée sur anilist :
   
             <a href="https://anilist.co/user/SlayrCarter/" target="_blank">Anilist</a>
-          </span>
+          </span> -->
         </div>
         <div id="manga_description">
           <i class="showdesc fa fa-sort-down"></i>

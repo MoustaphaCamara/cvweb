@@ -102,7 +102,7 @@
 #manga_description a {
   color: rgb(180, 98, 98);
 }
-#manga_picture:hover .anilist {
+/* #manga_picture:hover .anilist {
   opacity: 1;
 }
 .anilist {
@@ -123,7 +123,7 @@
 .anilist a:hover {
   color: white;
   transform: translateY(15px);
-}
+} */
 #manga_description a:hover {
   color: white;
   text-shadow: 0 0 15px white;
